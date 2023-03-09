@@ -4,9 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resume</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <h1 class="page-title">Junior Developer Resume</h1>
+    </header>
+    <main>
+        <div class="avatar-container">
+            <img class="avatar" src="images/avatar.jpg" width="120" height="120" alt="avatar">
+        </div>
+        <div class="resume-container">
+            <h3>Name</h3>
+            <p>Roman Kulesh</p>
+            <h3>Contact Info</h3>
+            <p>My mail: <a href="mailto:kuleshov000@gmail.com">kuleshov000@gmail.com</a></p>
+            <p>My phone: <a href="tel:+375295532468">+375 29 553 24 68</a></p>
+            <h3>Summary</h3>
+            <p class="summary-text">
+                I am a beginner frontend developer. I graduated from college as a technical programmer. After that, I briefly worked in a specialty and then I served in the army. Later I worked in non-programming jobs. However, I got very interested in front-end development. First I took the course “Website layout from 0 to 1”, then took a course on Udemy “Modern JavaScript - from Zero to Junior Specialist + React Fundamentals”.
+            </p>
+            <h3>Skills</h3>
+            <p>HTML5, CSS3, JavaScript, BEM, GIT</p>
+            <h3>Code examples</h3>
+            <pre><code>
+                const sumWithoutPlus = function(a, b) {
+                    const arr1 = new Array(a).fill(a);
+                    const arr2 = new Array(b).fill(b);
+                        
+                    return arr1.concat(arr2).length;
+                }
+            </code></pre>
+            <h3>Experience</h3>
+            <p>
+                <b>Project Pig Game</b><br>
+                Used skills: HTML5, CSS3, JavaScript<br>
+                Link to source code: <a href="https://github.com/ku13shov/pig-game" target="_blank">Pig Game</a>
+            </p>
+            <h3>Education</h3>
+            <p>
+                My specialty: technical programmer<br>
+                Completed courses: Website layout from 0 to 1, Modern JavaScript - from Zero to Junior Specialist + React Fundamentals
+            </p>
+            <h3>English</h3>
+            <p>
+                My English level is B1
+            </p>
+        </div>
+    </main>
 </body>
 </html>
