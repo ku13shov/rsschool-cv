@@ -15,3 +15,6 @@
 6. **Experience**<br/>Project Pig Game<br/>
 Used skills: HTML5, CSS3, JavaScript<br/>
 Link to source code: [Pig Game](https://github.com/ku13shov/pig-game)
+7. **Education**<br/>My specialty: technical programmer<br/>
+Completed courses: Website layout from 0 to 1, Modern JavaScript - from Zero to Junior Specialist + React Fundamentals
+8. **English**<br/>My Enlish level is B1
